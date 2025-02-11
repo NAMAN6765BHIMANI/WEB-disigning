@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: repeating-linear-gradient(180deg, rgb(0, 128, 0),rgb(255, 170, 0),rgb(255, 128, 0));
+        }
+    
+        .navi li{
+            display: inline-block;
+            padding-right: 30px;
+            
+        }
+        .navi{
+            background-color: aquamarine;
+            height: 70px;
+            align-content: center;
+            text-align: center;
+        }
+        a{
+          text-decoration: none;
+          border: 1px black;  
+          font-size: xx-large;     
+          color: rgb(21, 0, 255);
+        }
+        a:hover{
+            animation-timing-function: linear;
+            background-color: rgb(255, 149, 0);
+            font-size: xx-large
+        }
+    </style>
+</head>
+<body>
+    <div class="navi">
+    <ul >
+        <li><a href="project.html">home</a></li>
+        <li><a href="Culture.html">culture</a></li>
+        <li><a href="Landmarks.html">landmarks</a></li>
+        <li><a href="cuisine.html">cuisine</a></li>
+        <li><a href="Contect Us.html">contact Us</a></li>
+    </div>
+    </ul>
+        <h1>Contact Us</h1>
+        <p>Please fill out the form below for any inquiries or to register as a student.</p>
+        <h2>Student Registration Form</h2>
+        <form>
+            <label for="firstname">first name:</label>
+            <input type="text" id="first name" name="first name" placeholder="Enter your first name">
+            <br>
+            <br>
+            <label for="password">password</label>
+            <input type="password">
+            <br>
+            <br>
+            <label for="gender">gender: 
+            <input type="radio" name="gender" value="male" required>male
+            </label>
+            <label for="gender"></label>
+            <input type="radio" name="gender" value="female" required>female
+            
+            <br>
+            <br>
+            <label for="Subscribe to Newsletter">Subscribe to Newsletter</label>
+            <input type="checkbox">
+            <br>
+            <br>
+            <label for="Select your state"> state: </label>
+            <select>
+            <option>Gujrat</option>
+            <option>Maharastra</option>
+            <option>Andhra pradesh</option>
+        </select>
+        <br>
+        <br>
+        <label for="file">Upload Resume </label>
+        <input type="file"  id="file" name="file" required >
+        <br>
+        <br>
+        <label for="address" value="address">Address:</label>
+       <textarea id="address" name="address" rows="5" cols="50" placeholder="enter your address"></textarea>
+       <br>
+       <br>
+       <label for="date of birth" id="date of birth" name="date of birth">Date of birth:</label>
+       <input type="date">
+       <br>
+       <br>
+       <label for="time">Preferred Interview time: </label>
+       <input type="time">
+       <br>
+       <br>
+       <label for="marks" >marks:</label>
+       <input type="text" id="marks" name="marks" >
+       <br>
+       <br>
+       <input type="reset">
+       <input type="submit" value="submit">
+       <h2>More Information</h2>
+       <p>explore goverment job opportunities on the official OJAS website:</p>
+       <iframe src="https://ojas.gujarat.gov.in/"></iframe>
+       <br>
+       <a href="project.html">back to home</a>
+       <p> <i>contect us at <a href="info@incredibleindia.com">info@incredibleindia.com </a></i></p>
+       <footer><p> © 2025 Incredible Indian Project.
+
+        
+      
+        </form>
+</body>
+</html>
