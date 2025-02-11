@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes ani{
+0%{
+    background-image: linear-gradient(180deg, red,orange,black);
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+}
+25%{
+    background-image: linear-gradient(90deg,yellow,blue,green,white);
+    left: 1000px;
+    top: 0px;
+}
+75%{
+    background-image: linear-gradient(border-top-left-radius, black,rgb(0, 174, 255),rgb(55, 255, 0),orange);
+    left: 1000px;
+    top: 500px;
+}
+100%{
+   background-image: linear-gradient(rgb(85, 0, 128),yellow,green);
+  
+    left: 0px;
+    top: 500px;
+}
+
+        }
+        .animation{
+            animation-name: ani;
+            animation-duration: 4s;
+            animation-delay: 1s;
+            height: 200px;
+            width: 200px;
+            animation-iteration-count: infinite;
+            position: relative;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="animation">
+
+    </div>
+</body>
+</html>
